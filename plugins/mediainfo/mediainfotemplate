@@ -1,0 +1,3 @@
+General;General\r\n\r\nFile Name...........: %FileName%\r\nRuntime.............: %Duration/String%\r\nFile Size...........: %FileSize/String4%\r\nFormat..............: %Format%\r\nVideo Bitrate.......: %OverallBitRate/String%\r\n
+Video;\r\nVideo\r\n\r\nVideo Codec.........: %Format% %Format_Profile%\r\nAspect Ratio........: %DisplayAspectRatio/String%\r\nResolution..........: %Width%x%Height/String%\r\nFrame Rate..........: %FrameRate/String%\r\n
+Audio;\r\nAudio\r\n\r\nAudio Codec.........: %Format% %Format_Profile%\r\nChannels............: %Channel(s)/String%\r\nSampling Rate.......: %SamplingRate/String%\r\n$if(%Language%,Language............: %Language%\r\n)Bitrate.............: %BitRate/String%
